@@ -4,6 +4,6 @@ import publicController from '../api/publicController';
 
 const router = new Router();
 
-router.post('/demo', publicController.demo);
+router.get('/captcha', publicController.captcha);
 
 export default router;

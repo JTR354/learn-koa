@@ -1,6 +1,12 @@
+import svgCaptcha from 'svg-captcha';
+
 class PublicController {
-	demo(ctx) {
-		ctx.body = 'demo';
+	captcha(ctx) {
+		const captcha = svgCaptcha.create();
+		ctx.body = {
+			code: 0,
+			captcha
+		};
 	}
 }
 
