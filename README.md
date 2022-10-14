@@ -1,27 +1,33 @@
-# README
+# README LEARN KOA
 
-## setup
+## Setup
 
-nodemon
-cross-env
-rimraf
+### running
 
-webpack
-webpack-cli
-webpack-node-externals
-copy-webpack-plugin
-clean-webpack-plugin
+- nodemon
+- cross-env
+- rimraf
 
-@babel/node
-@babel/core
-@babel/preset-env
-babel-loader
+### webpack
+
+- webpack
+- webpack-cli
+- webpack-node-externals
+- copy-webpack-plugin
+- clean-webpack-plugin
+
+### babel
+
+- @babel/node
+- @babel/core
+- @babel/preset-env
+- babel-loader
 
 ```bash
 "dev": "cross-env NODE_ENV=dev nodemon --exec babel-node --inspect index.js",
 ```
 
-## debugger
+## Debugger
 
 ```bash
 "webpack:debugger": "node --inspect-brk ./node_modules/.bin/webpack --inline --progress"
@@ -30,26 +36,26 @@ babel-loader
 
 chrome://inspect/#devices
 
-## lint 配置
+## Lint 配置
 
-eslint
-prettier
-husky
-commitlint
-eslint-config-prettier
+- eslint
+- prettier
+- husky
+- commitlint
+- eslint-config-prettier
 
-## koa-config
+## Koa-config
 
-koa-router
-koa-combine-routers
-koa-compose
-koa-body
-koa-json
-koa-static
-koa-helmet
-@koa/cors
+- koa-router
+- koa-combine-routers
+- koa-compose
+- koa-body
+- koa-json
+- koa-static
+- koa-helmet
+- @koa/cors
 
-## server
+## Server
 
 - svg-captcha
 - [nodemailer](https://www.npmjs.com/package/nodemailer)
