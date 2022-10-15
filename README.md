@@ -59,3 +59,9 @@ chrome://inspect/#devices
 
 - svg-captcha
 - [nodemailer](https://www.npmjs.com/package/nodemailer)
+
+## UI
+
+- layui
+- [vuelidate](https://github.com/vuelidate/vuelidate)
+- [vee-validate](https://github.com/logaretm/vee-validate)
