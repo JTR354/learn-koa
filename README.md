@@ -62,6 +62,6 @@ chrome://inspect/#devices
 
 ## UI
 
-- layui
+- [layui](https://layui.itze.cn/)
 - [vuelidate](https://github.com/vuelidate/vuelidate)
 - [vee-validate](https://github.com/logaretm/vee-validate)
